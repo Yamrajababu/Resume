@@ -17,7 +17,7 @@ body{
 }
 
 .Right-panel{
-    background:white;
+    background:rgb(232, 222, 222);
     padding:20px;
     border-top-right-radius:2%;
     border-bottom-right-radius:2%;
@@ -27,7 +27,8 @@ body{
 img{
     border-radius:8%;
     object-fit: cover;
-    margin-left: 15%;
+    margin-left: 20%;
+    margin-top: 5%;
 }
 
 .Name{
