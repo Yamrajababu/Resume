@@ -1,7 +1,12 @@
+* a:hover{
+    text-decoration:underline;
+    
+}
+
 body{
     font-family: Arial, sans-serif;
     margin:0;
-    background:#f4f4f4;
+    background:#c4baba;
 }
 
 .Resume{
@@ -29,7 +34,7 @@ img{
     object-fit: cover;
     margin-left: 20%;
     margin-top: 5%;
-}
+}   
 
 .Name{
     margin-bottom:10px;
@@ -37,7 +42,7 @@ img{
 
 h2{
     margin-top:5px;
-    color:#555;
+    color:#555555;
 }
 
 ul{
@@ -46,16 +51,12 @@ ul{
     
     padding:20px 40px;
     border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    box-shadow:0 0 10px #00000000;
 }
 
 ul li{
     margin:10px 0;
     font-size:18px;
-}
-
-ul a:hover{
-    text-decoration: double;
 }
 
 ol{
@@ -73,12 +74,8 @@ ol li{
 }
 
 ol a{
-    text-decoration:none;
+    text-decoration:underline;
     color:#0066cc;
     font-weight:bold;
 }
 
-ol a:hover{
-    text-decoration:underline;
-    
-}
